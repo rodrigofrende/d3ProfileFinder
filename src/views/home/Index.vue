@@ -1,16 +1,21 @@
 <template>
   <div class="home">
-    <h2 class="font-diablo">Busqueda de Perfiles de D3</h2>
+    <HomeTitle/> 
+    <HomeForm/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 
+import HomeTitle from './HomeTitle'
+import HomeForm from './HomeForm'
+
 export default {
   name: 'Home',
   components: {
-
+    HomeTitle,
+    HomeForm
   }
 }
 </script>

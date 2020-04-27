@@ -4,7 +4,7 @@
             <b-navbar toggleable="lg" type="dark" variant="dark">
                 <b-navbar-brand :to="{ name: 'Home' }">
                     <img src="@/assets/img/diablo-iii.svg" alt="D3" width="30">
-                    <span class="font-diablo ml-2">Buscador de Perfiles de D3</span>
+                    <span class="font-diablo ml-2">BP D3</span>
                 </b-navbar-brand>
             </b-navbar>
         </div>
